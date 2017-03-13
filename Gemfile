@@ -7,6 +7,8 @@ source 'https://rubygems.org'
 gem 'sinatra'
 gem 'sinatra-contrib'
 
+gem 'bcrypt'
+
 # Adding thin gem as advised
 gem 'thin'
 

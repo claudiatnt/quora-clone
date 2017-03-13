@@ -1,0 +1,12 @@
+<h1>Welcome <%= current_user.full_name %> </h1>
+<!--  <%= current_user.full_name %> -->
+<p>Ask any question that you want!</p>
+
+<form method="post" action="#">
+  <input type="text" placeholder="Ask or Search Quora">
+  <input type=submit value="Ask Questions">
+</form>
+
+<form method="post" action="/logout">
+  <input type="submit" value="Log Out">
+</form>

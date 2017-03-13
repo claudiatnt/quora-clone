@@ -1,0 +1,10 @@
+<h1>Welcome <%= current_user.full_name %> </h1>
+<!--  <%= current_user.full_name %> -->
+<p>Ask any question that you want!</p>
+
+<form method="post" action="/logout">
+  <input type="submit" value="Log Out">
+</form>
+
+<!-- this one a href meaning "/" then "logout" => /logout -->
+<!-- <a href="logout">Log Out</a> -->
